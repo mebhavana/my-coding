@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title>Relationship selectors</title>
+	 <style>
+	     /* direct children*/
+		 ol>li{
+		 border:1px solid red;
+		 }
+		 /*descendant child*/
+		 ul li{
+		 border:5px solid yellow;
+		 color:red;
+		 }
+		 /*adjacent sibling*/
+		 div+p{
+		 color:green;
+		 }
+		 /*general sibling*/
+		 div~p{
+		 font-size:30px;
+		 }
+		 [type^="element"]{
+		    color:purple;
+		 } 
+		 .container>.MNC{
+		 border:3px solid blue;
+		 }
+		 .container .Product based{
+		 font-family:"Times New Roman",Times,serif;
+		 color:grey;
+		 }
+	 </style>
+</head>
+<body>
+<ol>
+     <li><h2>Multi national companies</h2></li>
+	     <ul>
+             <li>Google</li>
+	         <li>IBM</li>
+	         <li>Amazon</li>
+	         <li>Apple</li>
+		  </ul>
+	 <li><h2>Product based</h2></li>
+	      <ol>
+		     <li>Microsoft</li>
+			 <li>Google</li>
+			 <li>Amazon</li>
+			 <li>Apple</li>
+		  </ol>
+	 <li><h2>Service based</h2></li>
+          <ul>
+              <li>infosys</li>
+              <li>wipro</li>
+              <li>Accenture</li>
+			  <li>cognizant</li>
+		  </ul>
+</ol></br>
+<section class="container">
+      <div class="MNC">Google</div>
+	  <div class="Product based">Amazon</div>
+	  <div class="service based">Accenture</div>
+	  <p> This is about companies</p>
+</section>
+       <p type="element">All software companies are companies whose products are various forms of software,softeare technology and development</p>
+</body>
+</html>
+              			  
+	
