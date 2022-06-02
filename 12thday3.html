@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Nested layout</title>
+<style>
+.flex-container{
+display:flex;
+background-color:dodgerblue;
+font-weight:bold;
+color:ghostwhite;
+font-size:14px;
+margin:5px;
+}
+.flex-row{
+display:flex;
+background-color:lime;
+flex:1;
+height:auto;
+margin:5px;
+}
+.flex-center{
+align-item:center;
+justify-content:center;
+}
+.flex-nested-row{
+display:flex;
+background-color:orange;
+flex:1;
+margin:5px;
+}
+.flex-column{
+display:flex;
+background-color:purple;
+flex:1;
+flex-direction:column;
+margin:5px;
+height:auto;
+}
+.flex-nested-column{
+display:flex;
+background-color:orange;
+flex:1;
+margin:5px;
+}
+</style>
+</head>
+<body>
+     <div class="flex-container">
+         <div class="flex-row flex-center">
+            <span>1</span>
+         </div>
+         <div class="flex-row flex-center">
+            <span>2</span>
+         </div>
+         <div class="flex-row flex-center">
+            <span>3</span>
+         </div>
+         <div class="flex-row flex-center">
+            <span>4</span>
+         </div>
+     </div>
+<br/>
+     <div class="flex-container">
+         <div class="flex-row">
+             <span>1</span>
+                 <div class="flex-nested-row flex-center">
+                     <div>1.1</div>
+                 </div>
+                 <div class="flex-nested-row flex-center">
+                     <div>1.2</div>
+                 </div>
+         </div>
+         <div class="flex-row">
+             <span>2</span>
+                 <div class="flex-column">
+                     <div class="flex-nested-column flex-center">
+                         <div>2.1</div>
+                     </div>
+                     <div class="flex-nested-column flex-center">
+                         <div>2.2</div>
+                     </div>
+                 </div>
+          </div>
+     </div>
+</body>
+</html>
