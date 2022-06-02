@@ -1,0 +1,31 @@
+p{
+	color:green;
+}
+.style1{
+	     color:red;
+}
+#type1{
+	     color:purple;
+}
+*{
+	 background-color:yellow;
+	 font-family:"Times New Roman",Times,serif;
+}
+.style2{
+	      color:pink;
+}
+.style3{
+	    color:blue;
+}
+#type2{
+	    width: 30%;
+		height: 100px;
+.table1{
+	 border: 2;
+	 cellspacing: 5;
+	 cellpadding: 10px;
+	 bgcolor: #ccc;
+}
+.style3{
+	color:pink;
+}
