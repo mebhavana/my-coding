@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title>pseudo selectors</title>
+	 <style>
+	     /*unvisited link*/
+		 a:link{
+		 color:green;
+		 }
+		 /*visited link*/
+		 a:visited{
+		 color:red;
+		 }
+		 /*hover link*/
+		 a:hover{
+		 color:yellow;
+		 }
+		 /*selected link*/
+		 a:active{
+		 color:blue;
+		 }
+		 /*pseudo element before after selector*/
+		 p::before{
+		 content:"*************"
+		 }
+		 P::after{
+		 content:"*****************"
+		 }
+		 p::first-letter{
+		 color:red;
+		 }
+		 h1::after{
+		 content:" and psuedo element selectors"
+		 }
+		 ul li:first-child,ol li:last-child{
+		 border:1px solid red;
+		 background-color:blue;
+		 }
+	 </style>
+</head>
+<body>
+     <h1>pseudo class selectors</h1>
+     <a href="http://www.amazon.in/" target="_blank">shop here</a>
+	 <p>All software companies are companies whose products are various forms of software,softeare technology and development</p>
+     <h2>Multi national companies</h2>
+	     <ul>
+             <li>Google</li>
+	         <li>IBM</li>
+	         <li>Amazon</li>
+	         <li>Apple</li>
+		  </ul>
+	 <h2>Product based</h2>
+	      <ol>
+		     <li>Microsoft</li>
+			 <li>Google</li>
+			 <li>Amazon</li>
+			 <li>Apple</li>
+		  </ol>
+</body>
+</html>
+	 
