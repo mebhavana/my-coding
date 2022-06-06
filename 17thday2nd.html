@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible"Content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Transition</title>
+         <style>
+           body{
+            margin:50px;
+           }
+          .first{
+           width:200px;
+           height:200px;
+           border:5px solid red;
+           border-width:10px;
+           border-style:dotted;
+           background-color:#3DCCC7;
+           transition-property:border-style;background;border;
+           transition-delay:10s;5s;5s;
+           transition-duration:10s;20s;30s;
+           transition-timing-function:linear;ease-in;ease-out;
+           }
+         .first:hover{
+          border-style:dashed;
+          background-color:orange;
+          border:10px solid yellow;
+          transform:rotate(45deg);
+          }
+         img{
+          width:100px;
+          height:100px;
+          border:5px solid black;
+          transition-property:width;height;border;
+          }
+         img:hover{
+          width:200px;
+          height:200px;
+          border:15px solid grey;
+           }
+
+         </style>
+</head>
+<body>
+      <div class="first">box1</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Dui-CG5_VcIxTHxks0tTiME_1rIvYeIfMA&usqp=CAU">
+    
+</body>
+</html>
+             
