@@ -1,0 +1,19 @@
+Tables in HTML 
+
+Attributes
+
+<tb>  table border
+<th>  table header
+<tr>  table row
+
+cell spacing : space between the cells
+cell padding : to show the content clearly inside cells
+Background color : bgcolor - to color the background of the table
+
+<iframe link> go to youtube and search for a video which you want to share in your browser and click on share and go to embed link and copy the link
+google maps also click on directions-share-embed
+
+Lists
+1.Unordered list
+2.Ordered list
+3.Description list
