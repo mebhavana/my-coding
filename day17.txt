@@ -1,0 +1,179 @@
+Transform in CSS
+CSS Transforms are collection of functions that allow to shape elements in particular ways
+Transform property consists of four different properties:
+1)Translate
+2)Scale
+3)Rotate
+4)Skew
+
+Translate:Moves the element along up to 3 axis(x,y and z)
+rotate:Moves the element around a central point
+scale:resizes the element
+skew:distorts the element
+
+transform properties:
+There are 3 CSS properties available:
+
+Transform:defines which transform function to use(translate,rotate,scale)
+transform-origin:allows to modify the origin point of a transformation
+
+Translate:
+The translate function allows to move an element across the plane on the x and y axis.It accepts either:
+1 parameter:moves the element along x-axis
+2 parameters:First value for the x-axis,second for the y one
+Transform is a css property and translate is a value attached to that property
+
+Syntax:transform:translate(30px,300px);
+
+Rotate:
+Rotate function allows to male an element revolve around a fixed point.By default,it revolves around the element center
+Rotate accepts only 1 parameter,which is an angle value defined in degrees
+
+syntax:transform:rotate(90deg);
+
+scale:
+Scale function allows to resize an element.It can either expand or shrink it.The function accepts either:
+1.parameter:the element is resized uniformly in height and width
+2.parameters:the first value resizes the element horizantally,the second one vertically
+
+The range of possible value is:
+1.The element retains its original size
+2.the elements double in size
+0.5:the element is half in size
+0:the element basically disappears
+-1:the element is mirrored
+
+like translate scale function has x and y versions
+syntax:transform:sacle(1.01,1.5);
+
+skew:
+Skew function allows to distort an element by dragging its sides along a line basically
+
+skew only accepts angle values in degrees like rotate
+
+syntax:transform:skew(2deg,5deg);
+
+Transition:
+
+CSS Transition allows you to change property values smoothly over a given duration
+
+values of transition:
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+To create a transition effect you must specify two things
+
+THe css property you want to add an effect
+the duration of the property
+
+if duration part is not specified transition part will have no effect
+
+transition-timing-function: 
+
+The transition timing function specifies the time curve
+
+values of transition timing function
+
+ease:specifies a transition effect with a slow start then fast then end slowly
+linear:specifies the transition effect with same speed from start to end
+ease-in:specifies a transition effect with a slow start
+ease-out:specifies a transition effect with a slow end
+cubic-bezier:let us decide our values(n,n,n,n)
+
+transition-delay:
+it specifies a delay for transition effect
+
+transition-property:
+specifies the name of a css property the transition effect is for
+
+transition-duration:
+specifies a duration(time period)for a transition
+
+syntax:
+transition-property:border-style,background-color,border-width;
+transition-delay:2s,0s,3s;
+transition-duration:10s,3s,6s;
+transition-timing-out:linear,ease-in,ease-out
+
+Animations:
+
+CSS allows animations of HTMLelements without using javascript
+
+animation properties:
+keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+
+An animation lets an element gradually change from one style to another
+
+keyframes:
+
+when you specify css styles inside keyframes the animation will gradually change from current style to new style
+syntax:@keyframe example{
+from{
+background-color:red;
+}
+to{
+background-color:blue;
+}
+}
+animation duration:
+specifies how long an animation should take to complete
+
+animation-delay:
+specifies a delay for the start of an animation
+
+animation-iteration-count:
+
+specifies number of times an animation should run.it can be infinite
+
+animation-direction:
+specifies whether an animation should be played forward,backward or an alternate cycle
+
+values:
+normal-forwards
+reverse-backwards
+alternate:forward first then backward
+alternate reverse:backward first and forwards
+
+animation-timing-function: 
+
+The animation timing function specifies the time curve
+
+values of animation timing function
+
+ease:specifies a animation effect with a slow start then fast then end slowly
+linear:specifies the animation effect with same speed from start to end
+ease-in:specifies a animation effect with a slow start
+ease-out:specifies a animation effect with a slow end
+cubic-bezier:let us decide our values(n,n,n,n)
+
+animation-fill-mode:
+specifies a style for targetted element when animation is not playing
+
+values:
+none-no styles
+forward:element will retain value that set by last keyframe
+backward:element will retain value that set by first keyframe
+both:animation will follow both forward and backward rules extending animation property in both directions
+
+syntax:
+animation-name:rolling;
+animation-delay:25sec;
+animation-duration:10s;
+animation-iteration-count:3;
+@keyframes rolling{
+0%{
+transform:rotate(0deg)scale(1deg);
+}
+100%{
+transform:rotate(360deg)scale(0.5deg);
+}
+}

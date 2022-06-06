@@ -1,0 +1,52 @@
+HTML5 Features:
+   HTML5 introduces number of new elements and attributes that can help you in building modern websites.
+
+Set of Features in HTML5:
+
+NEW SEMANTIC ELEMENTS:These are like Header,Footer and Section
+
+FORMS:Improvements to HTML Web forms where new attributes have been introduced for input tag
+
+PERSISTENT LOCAL STORAGE:To achieve without restoring to Third-party plugins
+
+WEBSOCKET:A next generation bidirectional communication technology for web applications
+
+SERVERSENT EVENTS:HTML5 introduces events which flow from webserver to the web browser and they are called server-sent events
+
+Canvas:This supports a two dimensional drawing surface that you can program with javascript
+
+Audio and video:We can embed audio and video on our webpage.Source is a subtag
+
+Geolocation:users can share their location with our applications
+
+Microdata:It lets to create our own vocabularies beyond HTML5 and extend our webpage with custom semantics
+
+Drag and Drop:Drag and drop items from onr loc to another loc
+
+figure and figcaption:Figure elements used to display visual content such as photos and diagramds
+
+section: section elements like divs can be used to organize web page content into groups
+
+nav: nav element used for part of website that links to other page on the site
+
+header:heading of a page
+
+footer:typically found at bottom of the page
+
+progress tag:progress tag is used to check progress of task
+
+placeholder:it describes the specific value in a textarea
+
+email:when the input type in the form set as email,then the browser gets the instruction from the code to write a valid email format
+
+article:to display a content in a document
+
+aside: It represents a portion of document whose content is only indirectly related to document's main content
+
+content editable: It is an attribute which is used to permit the user to edit the content
+
+
+
+
+
+ 

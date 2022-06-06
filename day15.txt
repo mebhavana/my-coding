@@ -1,0 +1,83 @@
+Background properties:
+
+1)Background color: Background color gives colour to a page background 
+
+syntax:background-color();
+
+background color properties:
+
+a)Single color:It is a predefined color
+ex:orange,red,yellow etc.,
+
+b)Hexadecimal color:hexadecimal color gives some value for the color which we are giving as input 
+ex:#ccc displays grey color
+
+c)rgb colors:rgb stands for red green blue
+
+syntax:rgb(value,value,value);
+
+d)rgba color:rgba is same as rgb and be including opacity which stands for and
+
+syntax:rgba(value,value,value/a value);
+
+a value should be between 0 and 1
+lesser the opaque value higher is the transparency
+higher the opaque value lesser is the transparency
+
+e)hsl color:hsl color stands for hue saturation and lightness
+ hue is a degree on the color wheel from 0 to 360.
+ 0 is red,120 is green and 240 is blue
+ 
+ saturation is a percantage value,0% means a shade of gray and 100% is white
+ 
+ lightness is also a percantage,0% is black,50% is neither link or dark,100% is white
+ syntax: hsl(value,value%,value%);
+ 
+ f)hsla color: hsla is same as hsl and also includes opacity
+ 
+ a value should be between 0 and 1
+lesser the opaque value higher is the transparency
+higher the opaque value lesser is the transparency
+
+multi colors:
+
+multi colors are of two types
+a)linear gradient
+b)radial gradient
+
+linear gradient:linear gradient shows multi colors in a linear direction either from top and bottom or left and right
+syntax:background:linear-gradient(to right/bottom/top/left,color,color,color);
+
+radial gradient:radial gradient shows multi colors in a circular direction
+syntax:background:radial-gradient(color,color,color);
+
+2)Background image: Background image is used to diaplay a image in the background of a webpage
+
+syntax:background-image();
+
+background image properties:
+
+background-image with url:This can be a local url or a browser url
+syntax:background-image:url();
+
+background repeat:If the selected image doesn't fits into the position then the image will be repeated. In order to stop that we use repeat property
+ 
+syntax:background-repeat:no-repeat/repeat-x/repeat-y;
+
+background position:this is used to display an image in a position it can be top left bottom right and center
+
+syntax:background-position:center/top-left(default)/top-right/bottom-left/bottom-right
+
+background attachment:This refers whether the iamge should be fixed or can scroll
+
+syntax:background-attachment:fixed/scroll;
+
+background-size:Size refers to the image size it can be enlarged or can be as it is or in a certain pixel
+
+properties:100%
+           contain
+		   cover
+syntax:background-size:100%/contain/cover
+
+Here,contain refers to no enlarge in image
+     cover enlarges the image and covers complete space

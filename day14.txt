@@ -1,0 +1,49 @@
+Positions in CSS:
+
+The position property specifies the type of position method used for an element
+
+Properties:
+static
+relative
+absolute
+fixed 
+sticky
+
+static: Default value of position
+As the name says elements remain static as they appear in the document flow
+
+absolute:The element is positioned relative to its first parental element
+
+relative:The element is positioned to it's normal position
+
+fixed:The element is positioned relative to its browser window
+
+sticky:The element is positioned based on the user's scroll position
+
+Types of positioning
+
+A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky.In other words, it's anything except static
+
+relative:
+A relatively positioned element is an element whose computed position value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right properties specify the horizontal offset.
+
+absolute:
+An absolutely positioned element is an element whose computed position value is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they are added to the offset
+
+Sticky:
+A stickily positioned element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing a setting top to value other than auto within its flow root (or) the container it scrolls within, at which point it is treated as stuck until meeting the opposite edge of its containing block
+
+
+Most of the time, absolutely positioned elements that have height and width set to auto are sized so as to fit their contents. However, non-replaced, absolutely positioned elements can be made to fill the available vertical space by specifying both top and bottom and leaving height unspecified.
+They can likewise be made to fill the available horizontal space by specifying both left and right and leaving width as auto.
+
+If both top and bottom are specified top wins.
+
+Z-index:
+
+when elements are positioned they can overlap with other elements 
+
+z-index property specifies the stack order of an element i.e., elements are placed infornt or behind the overlapping element
+
+z-index:-1;
+z-index:1;

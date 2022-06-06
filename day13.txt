@@ -1,0 +1,83 @@
+CSS Grid:
+
+CSS Grid is a layout property used to arrange elements in rows and columns(multi dimensional layout
+
+What is a Grid?
+
+In basic terms,a CSS Grid system creates a structure that allows for content to be placed both Horizontally and Vertically in a consistent and easily manegable fashion.
+
+Grid and flexbox acts similar ways.you may seen people using flexbox to construct grid systems but that's not what flex box is designed for
+
+CSS grid layout method is designed for the two-dimensional layout of items on a webpage or application.Grid layouts gives us a method of creating grid structures that are described in CSS and not in HTML.
+
+It helps us to create layouts that can be redefined using media queries and adapt to different contexts.
+
+Grid layouts allows us properly separate the order of elements in the source from their visual presentation.
+
+With each element having an area on the grid,things are not in risk of overlapping due to text size change,more content than expected or small viewports
+
+CSS Grid layouts excels at dividing a page into major regions,or defining the relationship in terms of size,position and layer between parts of control built from HTTML Primitives.
+
+like tables grid layou enables an designer to align elements into columns and rows.
+
+However many more layouts are possible and are easier with CSS Grids rather than tables.
+
+Advantages of CSS Grid:
+
+Reduces Code bloat
+
+rather than creating extra html elements to contain your grid columns and rows your grid tracks are created within your style sheet
+
+Improved semantics
+
+Frameworks like bootstrap often compel developers to venture into divitis territory.grid frameworks don't always use the most semantically sound class names
+
+Reduces file size
+
+There is no need to include large libraries
+
+speed of development
+
+Once you learn syntax prototyping with css grid is fast and efficient
+
+Style labels
+
+It also possible to style labels based on their field using adjacent sibling selectors
+
+Two dimensional
+
+A grid is two dimensional with both rows and columns
+
+Nested Grids:
+
+css grid allows grids among themselves
+
+responsiveness
+
+Easily changes the placement of grid items according to the device screen
+
+Properties of CSS Grid:
+
+column-gap
+gap
+grid-area
+grid-auto-columns
+grid-auto-flow
+grid-auto-rows
+grid-column
+grid-column-end
+grid-column-gap
+grid-column-start
+grid-gap
+grid-row
+grid-row-end
+grid-row-gap
+grid-row-start
+grid-template
+grid-template-area
+grid-template-columns
+grid-template-rows
+row-gap
+
+
+

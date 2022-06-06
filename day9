@@ -1,0 +1,73 @@
+Selectors of CSS:
+
+1)Global Selectors
+2)Tag Selectors
+3)Class Selectors
+4)ID selectors
+
+Global Selector: Selects all the elements within the body
+
+Syntax: *{
+           
+		   
+		  }
+		  
+Tag Selector:Tag selector selects the elements of a particular tag name
+
+Syntax:  h1{                           span{
+                      (or)     
+           }                               }
+		   
+Class selector:  Selects the element which have particular class Name
+
+Syntax:  .classname{
+  
+                    }
+					
+ID selector: Selects all the elements that has particular ID
+
+Syntax:  #ID{
+
+            }
+			
+ID is a unique selector and hence it takes high priority while executing
+
+Attribute Selectors: 
+
+As we know attributes will be referred as the thing which gives extra information about an element
+
+In selectors attributes allows us to select an element using attributes
+
+Syntax:   
+
+1) has attribute:
+  
+  [href]{
+  
+        }
+		
+2) attribute value equals to:
+
+   [src="   "]{
+
+              }
+
+3) Attribute value starts with:
+
+   [type^="  "]{
+
+               }
+
+4)Attribute value ends with:
+   
+   [alt$=" "]{
+
+             }
+
+5) Attribute value contains:
+
+   [target*="  "]{
+
+               }   
+		  
+		  

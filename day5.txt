@@ -1,0 +1,50 @@
+Forms in HTML:
+
+What are forms?
+  Forms refer to Takinginformation from the user
+  
+What is a form in HTML?
+  An HTML form is a section of document which contains controls such as textfields,password fields,checkboxes,radio buttons,submit etc.,
+  it facilitates the user to enter data which needs to be sent to server for processing
+  
+Types of forms:
+   1)Registration Forms
+   2)Password reset Forms
+   3)Login Forms
+   
+Form Tag-<form></form>
+
+Attributes of Forms in HTML:
+   1)Action Attributes - It defines the action to be performed when form is submitted
+syntax :<form action ="link">
+   2)Method Attribute - Method Attribute specifies how to send form data
+   two kinds of method attributes
+     a)get - in get method after submitting the form values will be visible in address bar of new browser
+     b)post - in post method after submitting the form values will not be visible
+syntax:<form method="get/post">
+   3)Autocomplete - Autocomplete attribute specifies whether the form should have auto complete or not
+syntax:<form autocomplete="on/off">
+   4)Novalidate - Novalidate attribute specifies the form data should not be validated
+syntax:<form novalidate>
+   5)Enctype - Specifies how form data should be encoded when submitting to server
+note:enctype can be used only for post method
+
+Form elements in HTML:
+   1)Form - html form for user input
+   2)password - to set password
+   3)textarea - to give multiline information
+   4)checkboxes - to select mutiple options
+   5)radio - to select any of the option basically used for gender
+   6)submit - submit button
+   7)select dropdown - dropdown list
+   8)label - defines a label for a input element
+   9)fieldset - group of related elements in form
+   10)legend - defines caption for fieldset element
+   11)option - defines an option in drop down
+   12)datalist - specifies list of predefined elements
+   13)output - defines the result
+   14)optgroup - defines group of related options in output list 
+   
+   
+
+   

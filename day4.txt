@@ -1,0 +1,19 @@
+Lists: 
+  Lists are used to give numbering or to represent the elememts in sequence
+Types of Lists:
+1.Ordered List-ol
+2.Unordered List-ul
+3.Defintion list-dl
+  a)Definition text-dt
+  b)Definition description-dd
+
+Ordered List:Set of items will be displayed in an order by numbers,alphabets or roman numbers
+
+Unordered List:Set of items displayed with bullet points or square points
+
+Definition List:To display definition or 
+
+Real time examples:
+1)Menu items
+2)Main feature of product
+3)Any specific data description

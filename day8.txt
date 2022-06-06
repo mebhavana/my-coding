@@ -1,0 +1,88 @@
+CSS - Cascading style sheet
+
+CSS is to apply style to the HTML elements in the page.
+
+CSS is neither a programming language nor a markup language instead it is a style sheet language
+
+Versions of CSS:
+CSS 1.0
+CSS 2.0
+CSS 3.0 (Latest version)
+
+comments: /*------*/
+
+Styles in CSS can be applied by three types
+1)Inline CSS - Which is written within the code elements
+
+2)Internal or Embed CSS - Which is written inside head tag,we write styling code with the help of <style> tag
+
+3)External CSS - Different CSS file is used to apply styles and link with HTML file
+
+Core concepts of CSS:
+
+Selectors: It helps developer to select an element in page to apply style
+
+Selectors will be in internal and external css
+
+Properties - Apply styling to elements using properties
+
+Inline CSS:
+
+Syntax:<h1 style="color:pink";>Welcome</h1>
+
+Here h1 is a element
+     style is a attribute
+	 = is a assignment operator
+	 color is a property
+	 : is a separator
+	 pink is a value of property
+	 ; is a terminator
+	 color:pink is a declaration
+	 
+Drawbacks of Inline CSS:
+
+1)When we need to change something in the styling it is difficult in inline styling to go to every single code and update styling
+2)Redundancy in code
+
+Design principles:
+
+Separation of concern: Since HTML,CSS are written combined,there will be lot of confusion and code has to be maintained separately
+
+In real time there are lots of elements in webpage and lots of code redundancy to reduce that and to clear coding
+
+Internal CSS:
+
+Syntax: .style1{
+         color:pink;
+		 }
+
+Here . is a selector
+     style1 is a class value
+	 
+Apart from selector each rule set(declaration) is marked in curly braces
+
+within each declaration you must use colon to separate property from it's value
+
+within each rule set you must use semicolon to separation each declaration from next one
+
+Different types of selectors:
+
+id selector
+class selector
+Attribute selector
+psuedo-class selector
+	 
+Drawbacks of Internal CSS:
+
+If we have multiple html files it is difficult to update styling in each file so external css will comes to picture
+
+External CSS:
+
+Syntax:<link rel="stylesheet" type="text/css" href="css page link">
+
+CSS files should be saved with .css extension
+
+Advantages:
+Reusable code
+
+ 

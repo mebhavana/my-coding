@@ -1,0 +1,82 @@
+Relationship selectors:
+       CSS Selector can contain more than one simple selector.Relationship selector is like a parent-child relation
+	   
+Between Relationship selectors there are four combinators:
+1)Direct child selector
+
+Here the selector selects all the elements that are parent of a specified element
+
+syntax:  ol>li
+selecting all the li elements that are direct children of ol
+
+2)Descendant selector:
+
+It matches all the elements that are descendants of a specified element
+
+syntax: ol li
+selecting all the elements that are direct/indirect children of ol
+
+3)Adjacent sibling selector:
+
+Here the selector selects an element that is directly after another specific element
+
+syntax: div+p
+selecting the immediatiely following element to the specific element
+
+4)General sibling selector:
+
+Selecting all elements that are next siblings of a specified element
+
+syntax: div~p
+selects all elements that are next siblings to the specified element
+
+Psuedo selectors:
+There are two types
+1)psuedo element selector
+2)psuedo class selector
+
+psuedo element selector:
+
+psuedo element is used to style specified parts of an element
+
+*)style the first letter,or line,of an element
+*)insert content before,or after,the content of an element
+
+Syntax:
+ 
+::first-line{
+
+}
+
+::first-letter{
+
+}
+
+::before{
+   content:"*****"
+}
+
+::after{
+    content:"****"
+}
+
+Psuedo class selector:
+
+a psuedo class is used to
+*)style an element when a user mouses over it
+*)style visited and unvisited links differently
+*)style an element when its gets focus
+
+syntax:
+mouse over link:
+a:hover{
+}
+visited link:
+a:visited{
+}
+selected link:
+a:active{
+}
+unvisited link:
+a:link{
+}

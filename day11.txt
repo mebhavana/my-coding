@@ -1,0 +1,107 @@
+CSS Properties:
+
+1)Box-Model properties:
+*)border
+*)padding
+*)Margin
+
+property syntax:
+
+selector{
+     property:value of the property;
+	 }
+	 
+(Single or Multiple properties can be addressed)
+
+Box model properties:
+
+1}Border: Gives border to the Element
+
+syntax: div{
+         border:1px solid blue;
+         }
+
+Here div is selector
+     border is property
+	 1px is width of the border
+	 solid is border style tape
+	 red is border color
+	 : is seperator
+	 ; is terminator
+	 
+sub properties:	 
+
+1)border-width
+2)border-style
+3)border-color
+		 
+border-width - border-width property sets the width of an element's four borders.
+This prroperty can have from one to four values
+
+short hand property of border-width:
+
+border styles is under direction Top,Right,Bottom,Left which is clockwise
+
+border:10px;
+if there is one width given then all directions will be under same width
+
+border:10px 20px;
+in this case first width can be taken to Top and bottom and second one to left and right
+
+border:10px 30px 15px;
+in this case first width to be taken to top
+second to right and left
+third to bottom
+
+border:10px 20px 15px 30px;
+in this case it will take as clockwise i.e, top right bottom left
+
+border-width can be medium|thin|thick|length|initial|inherit
+
+medium gives medium border
+thick gives thick border
+thin gives thin border
+length allows us to define thickness of border
+initial sets this property to its default value
+inherit inherits the property from its parent element
+
+border-style: border-style proiperty sets an element's four borders.
+
+border of an element has same color of the content when no color value is specified
+
+Types of border styles:
+1)dashed
+2)dotted
+3)double
+4)inset
+5)outset
+6)groove
+
+border-padding: border-padding generates space around an element's content,inside of any define borders	
+syntax: border-padding:length; 
+
+border-radius :border-radius gives smooth borders
+border-radius:length;
+
+difference between margin and padding:                                           
+
+Margin: It is the space around an element.Margins are used to move an element up or down on a page as well as left or right.
+
+Margin is completely transparent,and it does not have any background color.It clears the area around the element.Each side of the element has a margin size you can change individually. 
+
+In creating the gap, the margin pushes adjacent elements away.
+
+Padding: It is the space between the element and the related content inside it. 
+
+It determines how elements look and sit within a container. It also shows the container background around the element in it. 
+
+Padding can be affected by background colors as it clears the area around the content. To create the gap, it either grows the element size or shrinks the content inside. By default, the size of the element increases.
+
+  
+                                     margin
+
+                                      border
+
+                                      padding
+
+                                      content

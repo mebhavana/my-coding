@@ -1,0 +1,67 @@
+Differences between Float,Flex and Grid:
+
+CSS Flex offers a one dimensional layout model powerful alignment and space distribution
+
+CSS Grid lets you quickly create flexible and two dimensional layouts
+
+Both can be used to place,size,align and develop the website designs
+
+Fundamentals:
+
+CSS Grid layout offers a two dimensional grid based layout system,with rows and columns.It makes designing webpage easier,without having to use floats and positioning
+
+CSS Flex box offers a one dimensional layout.It is helpful in allocating and aligning the space among items in a container
+
+One dimension vs two dimension:
+
+Grid is made for two dimensional layout whereas Flex is made for one.Flex box can work on either row or columns at atime,but grids can work on both.
+when working on either element i.e., row or column),we are most associated with the content.
+
+Flexbox gives more flexibility 
+HTML Markup and CSS will be easy to manage in this scenario
+
+when working with the webpage layouts ,CSS Grid does the job and it gives more flexibility to move around the blocks
+
+CSS Float is easy to float boxes of content side by side
+
+CSS Float properties:
+
+box-sizing:Defines how the width and height of an element are calculated,should they include padding nad borders or not
+
+clear:specifies what should happen to a element next to a floating element
+
+float:Specifies whether the element should float to the left right or not
+
+overflow:Specifies what happen if conent overflows an element box
+
+overflow-x:specifies what to do with the left/right edges of the content if it overflows the elements content area
+
+overflow-y:specifies what to do with the top/bottom edges of the content if it overflows the element content area
+
+CSS Flex properties:
+
+flex-grow: A number specifing how much the item will grow relative to the rest of flexible items
+
+flex-shrink: A number specifing how much the item will shrink relative to the rest of flexible items
+
+flex-basis: The length of the item
+
+flex-inherit:inherit the property from the parent element
+
+flex-direction:Flex direction property specifies the direction of flexible items
+
+flex-wrap:Flex wrap property specifies whether the flexible item should wrap or not
+
+align-item:align item property specifies the default alignment for items inside the flex-basis
+
+justify-content:Justify content property aligns the flexible container items when the items do not use all the available spaces horizontally
+
+CSS Grid:
+
+Grid layout is a two dimensional grid layout with rows and columns make it easier to design web pages without having to use floats and positioning
+
+like tables grids allows us to align elements into columns and rows
+
+Flex-box:
+
+Flex offers a one dimensional layout. it is helpful in allocating and aligning the space among items in a container

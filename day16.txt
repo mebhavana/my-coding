@@ -1,0 +1,57 @@
+Media queries in CSS:
+
+Media queries: To create a responsive website we use conditional code i.e.,media queries
+
+what is Responsive website:
+
+Responsive website is a website which is accessible on all types of devices
+
+<meta>tag should be present for media queries
+
+Media queries is a future of CSS allowing content rendering to adapt to different conditions such as screen resolution
+
+css media queries are a way to target browser by certain charecteristics,features,and user preferences then apply style or run other code based on those things.
+
+syntax:@media screen and(max-width:--px/min-width:--px){
+        .class{
+		/*apply styles*/
+		}
+	}
+	
+There are lot of things we can target beside viewport width.That might be screen resolution,device orientation,operating system preferences,or even more among a whole lot of things we can query and use to style a content
+
+Media queries are commonly associated with CSS but can be used in HTML and JS as well
+
+media types:
+
+what type of media we are trying to target
+
+types of media are:
+
+all- matches all devices
+
+print - matches documents that are viewed in a print preview or any media that breaks the content up into pages intended to print
+
+screen:matches devices with a screen
+
+speech:matches devices that read the content audibly,such as a screenreader.
+
+media features:
+
+width-defines width of a viewport
+
+syntax:min-width:--px/max-width:--px
+
+height-defines height
+
+syntax:min-height:--px/max-height:--px/max-height
+
+aspect-ratio:defines the width to height aspect ratio of viewport
+
+orientation:the way screen is oriented
+
+
+
+
+
+		
