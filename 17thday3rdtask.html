@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible"Content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Animation</title>
+         <style>
+             div{
+             width:100px;
+             height:100px;
+             background-color:red;
+             border-radius:50%;
+             animation-name:animate;
+             animation-duration:5s;
+             animation-delay:1s;
+              }
+             @keyframes animate{
+             from{
+             background-color:red;
+             }
+            to{
+            background-color:yellow;
+            }
+           }
+           img{
+            width:500px;
+             height:100px;
+             border-radius:50%;
+             animation:imageanimate 2s infinite linear;
+            }
+            @keyframes imageanimate{
+             from{
+              transform:rotate(0deg);
+              }
+             to{
+             transform:rotate(360deg);
+             }
+             }
+         </style>
+</head>
+<body>
+     <h3>animation</h3>
+     <div></div></br>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_f-3Npwnj40B6u8O8WmcX8swxRqUS8ncQg&usqp=CAU">
+</body>
+</html>
